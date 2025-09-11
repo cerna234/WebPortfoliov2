@@ -18,6 +18,7 @@ import NASAWEBAPP from "./Images/NasaAPI.png"
 import Vertex from "./Images/Vertex.png"
 import Porsche from "./Images/Porsche.png"
 import AutomationTool from "./Images/automationTool.png"
+import AiDefense from "./Images/Ai-Defense.jpg"
 
 export const skills = [
     {
@@ -71,6 +72,17 @@ export const skills = [
 
 
 export const Project = [
+    {
+
+        ProjectName:"AI-Assisted Drone Battery Life Planner for Defense Operations",
+        ProjectUrl:`${AiDefense}`,
+        ProjectDescription:"This project is a real-time AI-assisted mission planning web app built for defense UAV operations. It uses a machine learning regression model trained on drone battery performance data under varying environmental conditions. By integrating both real-time and forecasted weather data, the app predicts hour-by-hour drone battery life to help mission planners choose the most efficient time to fly, tailored to the mission’s location and conditions.",
+        ProjectLiveUrl:"https://batterylifeplannerfordefensedrones.netlify.app",
+        ProjectGithubLink:"https://github.com/cerna234/-Predict-Drone-Battery-Life-Based-on-Flight-Conditions",
+        alt:"Preview of AI App",
+       
+    },
+
     {
 
         ProjectName:"Automation tool",
